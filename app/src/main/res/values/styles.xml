@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TrackListActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/fade_transition</item>
+        <item name="android:windowSharedElementExitTransition">@transition/image_transition</item>
+    </style>
+
+    <style name="TrackActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/fade_transition</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/image_transition</item>
+    </style>
+
+</resources>

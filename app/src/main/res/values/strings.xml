@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Blury</string>
+    <string name="hint_artist">Enter Artist</string>
+    <string name="hint_track">Enter Track</string>
+
+    <string name="error_empty_list">No similar tracks found.</string>
+    <string name="error_no_connection">Check your connection.</string>
+</resources>

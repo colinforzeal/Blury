@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.TrackListFragment">
+
+    <ImageView
+        android:id="@+id/track_image_tracklist_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/flexible_space_image_height"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/overlay_tracklist_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/flexible_space_image_height"
+        android:background="@android:color/white"/>
+
+    <View
+        android:id="@+id/list_background_tracklist_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"/>
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+        android:id="@+id/recyclerview_tracklist_fragment"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_tracklist_fragment"
+        android:layout_height="@dimen/side_fab"
+        android:layout_width="@dimen/side_fab"
+        android:layout_gravity="end"
+        android:elevation="6dp"
+        android:layout_marginEnd="@dimen/margin_fab"
+        android:layout_marginTop="@dimen/flexible_space_image_height"
+        android:src="@drawable/ic_play_arrow"
+        android:tint="@color/colorAccent" />
+
+</FrameLayout>
+
