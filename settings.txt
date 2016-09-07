@@ -1,4 +1,0 @@
-Application name	Blury
-API key	cd26949b92dcff9b80510031487aed01
-Shared secret	59bbd084ee329cc482e81a3dbfea78f6
-Registered to	malscet
