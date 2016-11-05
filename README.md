@@ -21,4 +21,4 @@ Download from Yandex.Disk: (https://yadi.sk/d/MWGcVGATsmuGC)
   * LastFM API
 
 #Thanks
-
+ksoichiro for it's awesome [Android-ObservableScrollView](https://github.com/ksoichiro/Android-ObservableScrollView)
